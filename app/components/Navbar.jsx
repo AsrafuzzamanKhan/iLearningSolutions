@@ -29,16 +29,15 @@ const Navbar = () => {
                 <Image src={assets.header_bg_color} alt='background' className='w-full' />
             </div> */}
 
-            <nav className={`w-full fixed py-4 px-5 lg:px-8 xl:px-[8%] flex items-center justify-between z-50 ${isScrolled ? ' bg-white shadow-lg backdrop-blur-lg' : ''} transition-all duration-300`}>
+            <nav className={`w-full fixed py-4 px-5 lg:px-8 xl:px-[8%] flex items-center justify-between z-50 ${isScrolled ? ' bg-gray-900 shadow-lg backdrop-blur-lg' : ''} transition-all duration-300`}>
                 <a href="#top">
-                    <Image src={assets.logo} className='w-28 cursor-pointer mr-14' alt='logo' />
+                    <Image src={assets.logo} className='w-12 cursor-pointer mr-14' alt='logo' />
                 </a>
                 <ul className={`hidden lg:flex items-center gap-6 lg:gap-8  px-12 py-3   ${isScrolled ? 'bg-transparent' : ' rounded-full shadow-sm bg-opacity-50'}`}>
                     <li className=''><a href="#top" className='font-Ovo hover:text-green-800'>Home</a></li>
-                    <li className='font-Ovo'><a href="#about" className='font-Ovo hover:text-green-800'>About me</a></li>
-                    <li><a href="#services" className='font-Ovo hover:text-green-800'>Services</a></li>
-                    <li><a href="#work" className='font-Ovo hover:text-green-800'>My work</a></li>
-                    <li><a href="#experience" className='font-Ovo hover:text-green-800'>Experience</a></li>
+                    <li className='font-Ovo'><a href="#courses" className='font-Ovo hover:text-green-800'>Courses</a></li>
+
+
                     <li><a href="#contact" className='font-Ovo hover:text-green-800'>Contact me</a></li>
 
                 </ul>
@@ -68,17 +67,9 @@ const Navbar = () => {
                         <a href="#top" className='font-Ovo' onClick={closeSideMenu}>Home</a>
                     </li>
                     <li className='lg:hidden'>
-                        <a href="#about" className='font-Ovo' onClick={closeSideMenu}>About me</a>
+                        <a href="#about" className='font-Ovo' onClick={closeSideMenu}>Courses</a>
                     </li>
-                    <li className='lg:hidden'>
-                        <a href="#services" className='font-Ovo' onClick={closeSideMenu}>Services</a>
-                    </li>
-                    <li className='lg:hidden'>
-                        <a href="#work" className='font-Ovo' onClick={closeSideMenu}>My work</a>
-                    </li>
-                    <li className='lg:hidden'>
-                        <a href="#experience" className='font-Ovo' onClick={closeSideMenu}>Experience</a>
-                    </li>
+
                     <li className='lg:hidden'>
                         <a href="#contact" className='font-Ovo' onClick={closeSideMenu}>Contact me</a>
                     </li>

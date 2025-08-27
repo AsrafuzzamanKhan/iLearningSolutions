@@ -3,6 +3,7 @@ import Courses from "./components/Courses";
 import Hero from "./components/Hero";
 import Navbar from "./components/Navbar";
 import Reviews from "./components/Reviews";
+import WhyChoose from "./components/WhyChoose";
 import Footer from "./Footer";
 
 export default function Home() {
@@ -11,6 +12,7 @@ export default function Home() {
       <Navbar />
       <Hero />
       <Courses />
+      <WhyChoose />
       <Reviews />
       <Contact />
       <Footer />
