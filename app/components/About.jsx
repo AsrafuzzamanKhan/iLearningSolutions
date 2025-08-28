@@ -12,12 +12,12 @@ const About = () => {
             <h2
                 className="text-4xl font-bold mb-12 text-center text-white"
             >
-                Our Courses
+                About us
             </h2>
-            <div className="max-w-7xl mx-auto px-6 flex items-center justify-center ">
+            <div className="max-w-7xl mx-auto px-6 flex  items-center justify-center ">
 
                 {/* Left Side - Content */}
-                <div className="flex-1 pr-8">
+                <div className="flex-1 px-8 py-4">
 
 
                     <p className=" text-lg mb-6">

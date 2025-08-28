@@ -1,9 +1,13 @@
-import { Outfit } from "next/font/google";
+import { Outfit, Ovo } from "next/font/google";
 import "./globals.css";
 
 const outfit = Outfit({
   subsets: ["latin"],
   weight: ["100", "200", "300", "400", "500", "600", "700", "800", "900"],
+});
+const ovo = Ovo({
+  subsets: ["latin"],
+  weight: ["400"],
 });
 
 export const metadata = {
@@ -16,7 +20,7 @@ export default function RootLayout({ children }) {
     <html lang="en" className="scroll-smooth min-h-screen">
       <body
         suppressHydrationWarning={true}
-        className={`${outfit.className}antialiased leading-8 overflow-x-hidden`}
+        className={`${outfit.className} ${ovo.className} antialiased leading-8 overflow-x-hidden`}
       >
         {children}
       </body>

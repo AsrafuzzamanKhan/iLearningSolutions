@@ -66,10 +66,13 @@ const Navbar = () => {
                     <li className='lg:hidden'>
                         <a href="#top" className='font-Ovo' onClick={closeSideMenu}>Home</a>
                     </li>
-                    <li className='lg:hidden'>
-                        <a href="#about" className='font-Ovo' onClick={closeSideMenu}>Courses</a>
-                    </li>
 
+                    <li className='lg:hidden'>
+                        <a href="#about" className='font-Ovo' onClick={closeSideMenu}>About us</a>
+                    </li>
+                    <li className='lg:hidden'>
+                        <a href="#courses" className='font-Ovo' onClick={closeSideMenu}>Courses</a>
+                    </li>
                     <li className='lg:hidden'>
                         <a href="#contact" className='font-Ovo' onClick={closeSideMenu}>Contact me</a>
                     </li>
