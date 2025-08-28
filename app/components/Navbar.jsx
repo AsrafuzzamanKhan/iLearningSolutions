@@ -35,8 +35,8 @@ const Navbar = () => {
                 </a>
                 <ul className={`hidden lg:flex items-center gap-6 lg:gap-8  px-12 py-3   ${isScrolled ? 'bg-transparent' : ' rounded-full shadow-sm bg-opacity-50'}`}>
                     <li className=''><a href="#top" className='font-Ovo hover:text-green-800'>Home</a></li>
+                    <li className='font-Ovo'><a href="#about" className='font-Ovo hover:text-green-800'>About us</a></li>
                     <li className='font-Ovo'><a href="#courses" className='font-Ovo hover:text-green-800'>Courses</a></li>
-
 
                     <li><a href="#contact" className='font-Ovo hover:text-green-800'>Contact me</a></li>
 

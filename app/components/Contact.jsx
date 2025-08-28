@@ -34,9 +34,7 @@ const Contact = () => {
             className="w-full px-[12%] py-10 scroll-mt-20 "
         >
 
-            <h4 className='text-center mb-2 text-lg font-Ovo'>
-                Connect with me
-            </h4>
+
             <h2 className='text-center text-5xl sm:text-4xl md:text-5xl lg:text-[60px] font-Ovo'>
                 Get in touch            </h2>
             <p className='text-center  max-w-2xl mx-auto mb-10 mt-5 '>

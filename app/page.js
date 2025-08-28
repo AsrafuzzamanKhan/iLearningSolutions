@@ -1,3 +1,5 @@
+import About from "./components/About";
+import Certifications from "./components/Certifications";
 import Contact from "./components/Contact";
 import Courses from "./components/Courses";
 import Hero from "./components/Hero";
@@ -11,7 +13,9 @@ export default function Home() {
     <>
       <Navbar />
       <Hero />
+      <About></About>
       <Courses />
+      {/* <Certifications /> */}
       <WhyChoose />
       <Reviews />
       <Contact />

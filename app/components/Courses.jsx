@@ -1,6 +1,4 @@
-'use client'
 
-import { motion } from "framer-motion";
 
 const Courses = () => {
     const courses = [
@@ -38,25 +36,20 @@ const Courses = () => {
         },
     ];
     return (
-        <section id="courses" className="bg-gradient-to-b from-black via-gray-900 to-black py-20">
+        <section id="courses" className="bg-black py-20">
             <div className="max-w-7xl mx-auto px-6">
-                <motion.h2
+                <h2
                     className="text-4xl font-bold mb-12 text-center text-white"
-                    initial={{ opacity: 0, y: 30 }}
-                    whileInView={{ opacity: 1, y: 0 }}
-                    viewport={{ once: true }}
                 >
                     Our Courses
-                </motion.h2>
+                </h2>
                 <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8">
                     {courses.map((course, i) => (
-                        <motion.div
+                        <div
                             key={course.id}
                             className="bg-gray-800 rounded-xl shadow-lg overflow-hidden transform hover:-translate-y-3 hover:shadow-2xl transition duration-300"
-                            initial={{ opacity: 0, y: 50 }}
-                            whileInView={{ opacity: 1, y: 0 }}
-                            transition={{ delay: i * 0.2 }}
-                            viewport={{ once: true }}
+
+
                         >
                             <div className="h-2 bg-blue-500"></div>
                             <div className="p-6 flex flex-col justify-between h-full">
@@ -71,7 +64,7 @@ const Courses = () => {
                                     </a>
                                 </div>
                             </div>
-                        </motion.div>
+                        </div>
                     ))}
                 </div>
             </div>

@@ -37,6 +37,13 @@ import right_arrow from "./right-arrow.png";
 import send_icon from "./send-icon.png";
 import right_arrow_bold from "./right-arrow-bold.png";
 import right_arrow_bold_dark from "./right-arrow-bold-dark.png";
+import about from "./about.jpg";
+
+import six_sigma from "./6sigma-rep.png";
+import ba_learning from "./BALearning.png";
+import okrstudy from "./okrstudy.png";
+import kanban from "./kanban.png";
+import SCRUMstudy_ATP from "./SCRUMstudy-ATP.png";
 // data/courses.js
 // app/data/courses.js
 export const courses = [
@@ -113,6 +120,12 @@ export const assets = {
   send_icon,
   right_arrow_bold,
   right_arrow_bold_dark,
+  about,
+  ba_learning,
+  kanban,
+  six_sigma,
+  okrstudy,
+  SCRUMstudy_ATP,
 };
 
 export const workData = [

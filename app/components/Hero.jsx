@@ -1,8 +1,8 @@
 'use client'
 import { assets } from '@/assets/assets'
-import Image from 'next/image'
+
 import React from 'react'
-import { motion } from "framer-motion";
+
 
 const Hero = () => {
     return (
@@ -23,23 +23,24 @@ const Hero = () => {
         // </div>
         <section className="bg-gradient-to-b from-black via-gray-900 to-black text-white min-h-screen flex items-center justify-center px-6">
             <div className="text-center max-w-3xl">
-                <motion.h1
+                <h1
                     className="text-5xl md:text-6xl font-bold mb-6"
                     initial={{ opacity: 0, y: 50 }}
                     animate={{ opacity: 1, y: 0 }}
                     transition={{ duration: 1 }}
                 >
                     Empower Your Learning Journey
-                </motion.h1>
-                <motion.p
+                </h1>
+                <p
                     className="text-lg md:text-xl mb-8 text-gray-300"
                     initial={{ opacity: 0 }}
                     animate={{ opacity: 1 }}
                     transition={{ delay: 0.5, duration: 1 }}
                 >
-                    Access expert-led courses anytime, anywhere with iLearning Solutions.
-                </motion.p>
-                <motion.div
+                    Master Strategic Project Management, Agile Scrum and 6Sigma, with our industry-led and global certification courses.
+
+                </p>
+                <div
                     className="flex justify-center gap-4"
                     initial={{ opacity: 0 }}
                     animate={{ opacity: 1 }}
@@ -51,7 +52,7 @@ const Hero = () => {
                     <a href="#contact" className="bg-gray-700 hover:bg-gray-600 text-white font-semibold px-6 py-3 rounded-lg transition">
                         Contact Us
                     </a>
-                </motion.div>
+                </div>
             </div>
         </section>
     )
